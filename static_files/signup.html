@@ -1,0 +1,45 @@
+<!-- This file serves as the sign up page for the web application -->
+<!DOCTYPE HTML>
+<html lang="en">
+<!-- This section will contain css, bootstrap, and js scripts -->
+<head>
+  <title> Sign up </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="signup.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+  <h4 id="signup-text">DIAR[IO]</h4>
+  <!-- Form field for signing up (First name, last name, email, password, designer or customer) -->
+  <div class="container">
+    <div class="form-horizontal">
+      <div class="input-group">
+        <input id="firstname" type="text" class="form-control" placeholder="First Name" size="40" required>
+      </div>
+      <br>
+      <div class="input-group">
+        <input id="lastname" type="text" class="form-control" placeholder="Last Name" size="40" required>
+      </div>
+      <br>
+      <div class="input-group">
+        <input id="organizational" type="text" class="form-control" placeholder="Organization (Optional)" size="40" required>
+      </div>
+      <br>
+      <div class="input-group">
+        <input id="username" type="text" class="form-control" placeholder="Email" size="40" required>
+      </div>
+      <br>
+      <div class="input-group">
+        <input id="password" type="password" class="form-control" placeholder="Password" size="40" required>
+      </div>
+      <div class="form-group in">
+        <button id="submitButton" type="submit" class="btn btn-primary btn-sm btn-block">Register</button></br>
+        <a class="hasAccount" href="login.html">Have an account? Log in!</a>
+      </div>
+    </div>
+  </div>
+  <div id="#status"> </div>
+</body>
+</html>
